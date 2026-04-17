@@ -1,0 +1,29 @@
+Install Linux operating system in dual boot or standalone environment. 
+Source: https://ubuntu.com/download/desktop (64-bit PC (AMD64) desktop image)
+
+Step-1:-Boot from USB flash drive
+
+Step-2:- Welcome Screen : Select Install Ubuntu
+
+Step-3:-Select Language and Keyboard
+
+Step-4:- Installation type: 
+1. For fresh install select erase disk & install Ubuntu
+2. For dual boot select install Ubuntu alongside any available   operating system 
+OR
+For manual partitioning select something else  
+OR
+If Something else is selected 
+
+Step-5:-Create Partition:
+SWAP- Used as virtual memory (normally same as RAM Size -a partition offers dedicated space)
+root- Stores the operating system files (  a minimum of 8-10 GB is needed, but 20-30 GB is a good standard for typical desktop use to install software)
+boot- Contains the kernel and bootloader files needed to start Ubuntu (a /boot partition typically needs 250MB to 1GB, with defaults often around 500MB to 1GB) 	
+EFI- acting as a dedicated space for boot loaders and system firmware files like GRUB (generally needs 100MB to 500MB, with 300-500MB being a safe for use without issues)
+Home- partition is a dedicated disk space for user files like documents, settings, downloads etc ( allocate remaining disk space)
+
+Step-6:-Then Click on Install Now
+
+Step-7:-Create Username, Computer Name and Password then click on Continue
+
+Step-8:- Restart your computer
